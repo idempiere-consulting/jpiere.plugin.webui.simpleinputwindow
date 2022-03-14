@@ -2,21 +2,21 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: jpiere.plugin.webui.simpleinputwindow
 Bundle-SymbolicName: jpiere.plugin.webui.simpleinputwindow;singleton:=true
-Bundle-Version: 9.0.0.qualifier
+Bundle-Version: 10.0.0.qualifier
 Bundle-Vendor: OSS ERP Solutions
 Bundle-ActivationPolicy: lazy
-Require-Bundle: org.adempiere.base;bundle-version="3.0.0",
- org.adempiere.plugin.utils;bundle-version="3.0.0",
+Require-Bundle: org.adempiere.base,
+ org.adempiere.plugin.utils,
  org.adempiere.ui.zk,
- org.adempiere.ui;bundle-version="3.0.0",
- org.idempiere.zk.extra;bundle-version="1.0.0",
- zk;bundle-version="8.0.1",
- zkbind;bundle-version="8.0.1",
- zkplus;bundle-version="8.0.1",
- zcommon;bundle-version="8.0.1",
- zul;bundle-version="8.0.1",
- zhtml;bundle-version="8.0.1",
- zweb;bundle-version="8.0.1"
+ org.adempiere.ui,
+ org.idempiere.zk.extra,
+ zk,
+ zkbind,
+ zkplus,
+ zcommon,
+ zul,
+ zhtml,
+ zweb
 Service-Component: OSGI-INF/jpierePluginSimpleInputWindowModelFactory.xml,OSGI-INF/jpierePluginSimpleInputWindowFormFactory.xml,OSGI-INF/jpierePluginSimpleInputWindowCalloutFactory.xml,
  OSGI-INF/jpierePluginSimpleInputWindowProcessFactory.xml
 Export-Package: jpiere.plugin.simpleinputwindow.base,
